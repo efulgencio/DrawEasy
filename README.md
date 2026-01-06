@@ -1,6 +1,14 @@
 🎨 Aprende a Dibujar - iOS App
 Esta aplicación está diseñada para ayudar a principiantes a mejorar su técnica de dibujo mediante el calco. Utiliza una integración con IA para generar contornos minimalistas y fáciles de seguir.
 
+<p align="center">
+  <img src="casa.png" width="600">
+</p>
+
+<p align="center">
+  <img src="arbol.png" width="600">
+</p>
+
 📸 Retos Superados en el Desarrollo
 Durante el desarrollo, nos enfrentamos a limitaciones técnicas que la app resuelve de forma inteligente:
 
