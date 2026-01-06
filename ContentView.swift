@@ -42,9 +42,16 @@ struct ContentView: View {
                         }
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .background(Color.white)
-                        
-                        Slider(value: $opacidad, in: 0.05...0.8)
-                            .padding()
+  
+                        VStack(spacing: 8) {
+                            Text("Ajustar transparencia para calcar")
+                                .font(.caption)
+                                .fontWeight(.bold)
+                                .foregroundStyle(.secondary)
+                            
+                            Slider(value: $opacidad, in: 0.05...0.8)
+                        }
+                        .padding()
                         
                         Button("Volver para hacer otro") {
                             // Al volver, si todavía estamos en tiempo de espera, el botón de inicio estará bloqueado
@@ -135,4 +142,9 @@ struct ContentView: View {
             }
         }
     }
+}
+
+
+#Preview {
+    ContentView()
 }
